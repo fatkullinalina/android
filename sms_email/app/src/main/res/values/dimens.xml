@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size">20sp</dimen>
+    <dimen name="width_1">26dp</dimen>
+    <dimen name="width_2">30dp</dimen>
+    <dimen name="width_3">359dp</dimen>
+    <dimen name="height_1">42dp</dimen>
+    <dimen name="height_2">215dp</dimen>
+    <dimen name="height_3">474dp</dimen>
+    <dimen name="width_4">350dp</dimen>
+    <dimen name="height_4">85dp</dimen>
+    <dimen name="height_5">61dp</dimen>
+    <dimen name="height_6">585dp</dimen>
+    <dimen name="height_7">296dp</dimen>
+    <dimen name="width_8">74dp</dimen>
+    <dimen name="height_8">146dp</dimen>
+    <dimen name="height_9">74dp</dimen>
+    <dimen name="width_9">289dp</dimen>
+    <dimen name="sizeOfText">50sp</dimen>
+    <dimen name="width_10">45dp</dimen>
+    <dimen name="width_11">322dp</dimen>
+    <dimen name="height_10">52dp</dimen>
+    <dimen name="height_11">586dp</dimen>
+    <dimen name="height_12">93dp</dimen>
+    <dimen name="width_13">395dp</dimen>
+    <dimen name="height_13">69dp</dimen>
+    <dimen name="width_14">519dp</dimen>
+    <dimen name="height_14">169dp</dimen>
+</resources>

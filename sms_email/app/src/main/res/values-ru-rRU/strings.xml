@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Почта</string>
+    <string name="email">Отправить</string>
+    <string name="preview">Просмотр</string>
+    <string name="unvisible">Введите сообщение...</string>
+</resources>
