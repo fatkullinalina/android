@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Билл Гейтс</string>
+    <string name="hint">Введите ваше сообщение...</string>
+    <string name="mcrsft">Основатель Майкрософт</string>
+    <string name="profession">Предприниматель</string>
+    <string name="send">Отправить</string>
+    <string name="BH">Член совета директоров Berkshire Hathaway</string>
+    <string name="bio">Он является основателем и одним из руководителей корпорации Microsoft. Также является американским бизнес магнатом, который считается одним из богатейших людей на планете.</string>
+</resources>

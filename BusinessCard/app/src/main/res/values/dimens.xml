@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iconSize">28dp</dimen>
+    <dimen name="heightOfPhoto">244dp</dimen>
+    <dimen name="betweenIconText">8dp</dimen>
+    <dimen name="betweenStartIcon">50dp</dimen>
+    <dimen name="shriftSize">13sp</dimen>
+    <dimen name="distance">16dp</dimen>
+    <dimen name="sizeIcons">35dp</dimen>
+    <dimen name="forIcons">130dp</dimen>
+    <dimen name="forTwitter">80dp</dimen>
+    <dimen name="widthPhoto">246dp</dimen>
+    <dimen name="distanceHorizontal">10dp</dimen>
+    <dimen name="forIcon">30dp</dimen>
+    <dimen name="forInstTwit">135dp</dimen>
+</resources>

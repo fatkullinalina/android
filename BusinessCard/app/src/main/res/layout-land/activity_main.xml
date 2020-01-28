@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="@dimen/widthPhoto"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bill" />
+
+    <ImageView
+        android:id="@+id/icon_1"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:layout_toEndOf="@id/photo"
+        android:layout_marginStart="@dimen/distance"
+        android:layout_marginTop="@dimen/distanceHorizontal"
+
+        android:src="@drawable/hh" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/iconSize"
+        android:layout_alignBottom="@id/icon_1"
+        android:layout_marginStart="@dimen/betweenIconText"
+        android:layout_toEndOf="@id/icon_1"
+        android:text="@string/profession"
+        android:textSize="@dimen/shriftSize" />
+    <ImageView
+        android:id="@+id/icon_2"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:src="@drawable/mcrsft"
+        android:layout_marginTop="@dimen/distanceHorizontal"
+        android:layout_below="@id/icon_1"
+        android:layout_alignStart="@id/icon_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/iconSize"
+        android:layout_alignBottom="@id/icon_2"
+        android:layout_marginStart="@dimen/betweenIconText"
+        android:layout_toEndOf="@id/icon_2"
+        android:textSize="@dimen/shriftSize"
+        android:text="@string/mcrsft" />
+    <ImageView
+        android:id="@+id/icon_3"
+        android:layout_width="@dimen/iconSize"
+        android:layout_height="@dimen/iconSize"
+        android:src="@drawable/bh"
+        android:layout_marginTop="@dimen/distanceHorizontal"
+        android:layout_below="@id/icon_2"
+        android:layout_alignStart="@id/icon_2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/icon_3"
+        android:layout_marginStart="@dimen/betweenIconText"
+        android:textSize="@dimen/shriftSize"
+        android:layout_toEndOf="@id/icon_3"
+        android:text="@string/BH" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon_3"
+        android:layout_alignStart="@id/icon_3"
+        android:layout_marginTop="@dimen/distanceHorizontal"
+        android:layout_marginEnd="@dimen/distance"
+        android:text="@string/bio"
+        android:textSize="@dimen/shriftSize" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+
+        android:hint="@string/hint"
+        android:layout_alignStart="@id/message"
+        android:layout_alignEnd="@id/message"
+        android:textSize="@dimen/shriftSize" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_alignEnd="@id/editText"
+        android:layout_below="@id/editText" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="@dimen/forIcon"
+        android:layout_height="@dimen/forIcon"
+        android:layout_below="@id/button"
+        android:layout_marginStart="@dimen/forInstTwit"
+        android:layout_alignStart="@id/editText"
+
+        android:src="@drawable/inst2" />
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="@dimen/forIcon"
+        android:layout_height="@dimen/forIcon"
+        android:layout_below="@id/button"
+        android:layout_marginEnd="@dimen/forInstTwit"
+        android:layout_alignEnd="@id/editText"
+
+        android:src="@drawable/twi2" />
+
+</RelativeLayout>
