@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Gif</string>
+    <string name="smth">smth</string>
+    <string name="hint">Введите слово...</string>
+    <string name="search">Поиск</string>
+</resources>
