@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_image"
+    android:background="@color/white"
+    android:maxLines="1"
+    android:id="@+id/list_item"
+    android:padding="@dimen/list_item_padding"
+    tools:showIn="@layout/activity_news_list">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_image"
+        android:layout_marginTop="@dimen/padding_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/textSize"
+        android:layout_toLeftOf="@id/imageView"
+        android:textAllCaps="true"
+        tools:text="@tools:sample/first_names" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        tools:text="@tools:sample/full_names"
+        android:layout_marginTop="@dimen/padding_image"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/imageView"
+        android:layout_alignLeft="@id/textView"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_image"
+        android:layout_below="@id/textView2"
+        android:layout_toLeftOf="@id/imageView"
+        android:layout_alignLeft="@id/textView2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/padding_image"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_image"
+        android:layout_alignLeft="@id/textView3"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentBottom="true"
+        android:textSize="8dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/sizeOfImage"
+        android:layout_height="@dimen/sizeOfImage"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/padding_image"
+        android:layout_marginLeft="@dimen/padding_image"
+        android:layout_alignParentRight="true"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MoreInfoActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_width="300dp"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="163dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_margin="@dimen/pad"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView2"
+         />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/smallSP"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="@dimen/pad"
+        tools:ignore="SmallSp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_below="@id/textView6"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:paddingBottom="@dimen/twicePad"
+        android:layout_margin="@dimen/pad"
+         />
+    </ScrollView>
+
+</RelativeLayout>

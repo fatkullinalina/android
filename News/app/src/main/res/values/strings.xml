@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bill Gates</string>
+    <string name="profession">Businessman</string>
+    <string name="mcrsft">Microsoft founder</string>
+    <string name="BH">Member of Board of Directors, Berkshire Hathaway</string>
+    <string name="hint">Enter your message...</string>
+    <string name="send">Send message</string>
+    <string name="bio">He is a founder and co-leader of Microsoft Corporation.He is also an American business magnate, who is considered to be one of the richest people on the planet.</string>
+</resources>
