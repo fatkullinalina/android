@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_button"
+            android:onClick="onClickFragment"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:onClick="onClickFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Удалить" />
+        <Button
+            android:id="@+id/replace_button"
+            android:onClick="onClickFragment"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Заменить" />
+    </LinearLayout>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toBackStack"
+        android:layout_below="@id/linearlayout"/>
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@id/switch1"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/container2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_below="@id/container"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</RelativeLayout>

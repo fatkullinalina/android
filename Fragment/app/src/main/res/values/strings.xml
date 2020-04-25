@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="add">Добавить</string>
+    <string name="text">Тут появится текст</string>
+</resources>
